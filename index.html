@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dolce Burger · Hamburguesas sin tonterías · El Prat de Llobregat</title>
+  <meta name="description" content="Dolce Burger, hamburguesería smash y pollo crujiente en El Prat de Llobregat. Consulta la carta, el horario y pide para llevar.">
+  <meta name="theme-color" content="#141210">
+  <meta property="og:title" content="Dolce Burger · Hamburguesas sin tonterías">
+  <meta property="og:description" content="Smash burgers y pollo crujiente en El Prat de Llobregat.">
+  <meta property="og:image" content="https://cdn.website.dish.co/media/93/38/4980065/Dolce-Burger-dolce-version-cuadrada-png.jpg">
+  <link rel="icon" href="https://cdn.website.dish.co/media/93/38/4980065/Dolce-Burger-dolce-version-cuadrada-png.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Dolce Burger",
+    "servesCuisine": "Hamburguesas",
+    "telephone": "+34930423132",
+    "email": "dolceburger20@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. de la Verge de Montserrat 125",
+      "postalCode": "08820",
+      "addressLocality": "El Prat de Llobregat",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 41.3254183, "longitude": 2.0945441 },
+    "sameAs": ["https://www.instagram.com/dolceburgerr/"]
+  }
+  </script>
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="Dolce Burger, inicio">
+        <img src="https://cdn.website.dish.co/media/93/38/4980065/Dolce-Burger-dolce-version-cuadrada-png.jpg" alt="" class="brand__logo" width="40" height="40" onerror="this.remove()">
+        <span>Dolce Burger</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu-nav" class="nav__links">
+        <a href="#carta">Carta</a>
+        <a href="#horario">Horario</a>
+        <a href="#donde">Dónde estamos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="tel:+34930423132" class="btn btn--sm">Llamar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">El Prat de Llobregat</p>
+          <h1>Hamburguesas<br><span>sin tonterías</span></h1>
+          <p class="hero__lead">Smash burgers de vacuno, pollo crujiente y pan artesanal. Ven a comer o pide para llevar.</p>
+          <div class="hero__cta">
+            <a href="tel:+34930423132" class="btn">Llamar y pedir</a>
+            <a href="#carta" class="btn btn--ghost">Ver la carta</a>
+          </div>
+          <p class="status" id="open-status" aria-live="polite"></p>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <div class="burger">
+            <div class="burger__bun-top"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="burger__lettuce"></div>
+            <div class="burger__cheese"></div>
+            <div class="burger__patty"></div>
+            <div class="burger__cheese burger__cheese--2"></div>
+            <div class="burger__patty"></div>
+            <div class="burger__bun-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Lo que nos define">
+      <div class="container strip__inner">
+        <div><strong>Smash</strong><span>vacuno a la plancha</span></div>
+        <div><strong>Pollo</strong><span>crujiente de verdad</span></div>
+        <div><strong>Pan</strong><span>artesanal</span></div>
+        <div><strong>Para llevar</strong><span>llama y recoge</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="carta">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Nuestra carta</p>
+          <h2>Elige tu burger</h2>
+        </div>
+        <div class="tabs" role="tablist" id="menu-tabs"></div>
+        <div class="menu-grid" id="menu-grid">
+          <p class="muted">Cargando la carta…</p>
+        </div>
+        <div class="menu-foot">
+          <p class="muted small">Precios orientativos en euros, IVA incluido. Pregunta en el local por alérgenos.</p>
+          <button class="btn btn--ghost btn--sm" id="open-menu-img">Ver carta original</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="horario">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Horario</p>
+          <h2>Cuándo abrimos</h2>
+          <p class="muted">Cerramos los lunes. El resto de la semana, comidas y cenas (el martes solo cenas).</p>
+        </div>
+        <table class="hours" id="hours-table">
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="donde">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Dónde estamos</p>
+          <h2>Av. de la Verge de Montserrat 125</h2>
+          <p class="muted">08820 El Prat de Llobregat, Barcelona</p>
+        </div>
+        <div class="map">
+          <iframe title="Mapa de Dolce Burger" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=41.3254183,2.0945441&amp;z=17&amp;output=embed"></iframe>
+        </div>
+        <a class="btn btn--ghost btn--sm map__link" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/dir/?api=1&amp;destination=41.3254183,2.0945441">Cómo llegar</a>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacto">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Contacto y pedidos</p>
+          <h2>¿Tienes hambre?</h2>
+        </div>
+        <div class="cards">
+          <a class="card" href="tel:+34930423132">
+            <span class="card__label">Teléfono</span>
+            <strong>930 42 31 32</strong>
+            <span class="muted small">Llama y pide para llevar</span>
+          </a>
+          <a class="card" href="mailto:dolceburger20@gmail.com">
+            <span class="card__label">Email</span>
+            <strong>dolceburger20@gmail.com</strong>
+            <span class="muted small">Grupos, eventos y dudas</span>
+          </a>
+          <a class="card" href="https://www.instagram.com/dolceburgerr/" target="_blank" rel="noopener">
+            <span class="card__label">Instagram</span>
+            <strong>@dolceburgerr</strong>
+            <span class="muted small">Novedades y burgers del mes</span>
+          </a>
+        </div>
+        <div class="delivery">
+          <span class="muted">También a domicilio en</span>
+          <a href="https://www.just-eat.es/restaurants-dolce-burger-prat-de-llobregat-el/menu" target="_blank" rel="noopener">Just Eat</a>
+          <a href="https://www.ubereats.com/es/store/dolce-burger/gEh9HsLqTR2DD9TBh0RLDA" target="_blank" rel="noopener">Uber Eats</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><strong>Dolce Burger</strong> · Hamburguesas sin tonterías</p>
+      <p class="muted small">Av. de la Verge de Montserrat 125, 08820 El Prat de Llobregat · <a href="tel:+34930423132">930 42 31 32</a></p>
+      <p class="muted small">© <span id="year"></span> Dolce Burger</p>
+    </div>
+  </footer>
+
+  <a href="tel:+34930423132" class="fab" aria-label="Llamar a Dolce Burger">Llamar</a>
+
+  <dialog class="lightbox" id="menu-dialog">
+    <form method="dialog"><button class="lightbox__close" aria-label="Cerrar">×</button></form>
+    <img src="https://cdn.website.dish.co/media/fc/81/6702830/Menu.png" alt="Carta original de Dolce Burger" loading="lazy">
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

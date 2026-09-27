@@ -1,0 +1,59 @@
+{
+  "nota": "Descripciones tomadas de Just Eat y precios de Uber Eats (septiembre 2026). Revisar y ajustar a los precios del local.",
+  "categorias": [
+    {
+      "id": "vacuno",
+      "nombre": "Burgers de vacuno",
+      "items": [
+        { "nombre": "Dolce Burger", "desc": "Pan artesanal, doble vacuno 180 g, salsa dolce, doble cheddar, lechuga, tomate, cebolla y pepinillo.", "precio": 9.90, "destacado": true },
+        { "nombre": "Burger Tower", "desc": "Pan artesanal, doble vacuno 180 g, crispy, salsa dolce, doble cheddar, bacon, huevo, tomate y lechuga premium.", "precio": 13.00, "destacado": true },
+        { "nombre": "Burger Trufada", "desc": "Pan artesanal, doble vacuno 180 g, huevo, doble cheddar y mayo trufada especial.", "precio": 11.50 },
+        { "nombre": "Cabramelizada", "desc": "Pan artesanal, vacuno 90 g, queso de cabra, cebolla caramelizada, mayo rústica y lechuga premium.", "precio": 11.00 },
+        { "nombre": "Wild Bacon Cheese", "desc": "Pan artesanal, vacuno 90 g, salsa BBQ, cheddar, bacon y aros de cebolla.", "precio": 9.90 },
+        { "nombre": "Oklahoma Fried Onion", "desc": "Pan artesanal, doble vacuno 180 g, doble cheddar, cebolla a la plancha, salsa dolce y pepinillo.", "precio": 9.90 },
+        { "nombre": "Bacon Cheeseburger", "desc": "Pan artesanal, vacuno 90 g, cheddar, bacon, salsa dolce, cebolla y pepinillo.", "precio": 9.50 },
+        { "nombre": "Cheeseburger", "desc": "Pan artesanal, vacuno 90 g, cheddar, ketchup, mostaza, cebolla picada y pepinillo. También doble o triple.", "precio": 5.90 },
+        { "nombre": "Classic Burger", "desc": "Pan artesanal, vacuno 90 g, mayonesa, cheddar, tomate y lechuga.", "precio": 6.90 }
+      ]
+    },
+    {
+      "id": "pollo",
+      "nombre": "Burgers de pollo",
+      "items": [
+        { "nombre": "Pollo Royal Doble", "desc": "Pan artesanal, doble pollo crujiente, doble cheddar, bacon, huevo, salsa dolce, lechuga premium y tomate.", "precio": 14.00, "destacado": true },
+        { "nombre": "Pollo Royal", "desc": "Pan artesanal, pollo crujiente, cheddar, bacon, huevo, salsa dolce, lechuga premium y tomate.", "precio": null },
+        { "nombre": "Pollo Cheese Bacon", "desc": "Pan artesanal, pollo crujiente, bacon, mayo rústica, cheddar, lechuga premium y cebolla crispy.", "precio": null },
+        { "nombre": "Pollo Honey Mustard", "desc": "Pan artesanal, pollo crujiente, cheddar, salsa miel mostaza y lechuga premium.", "precio": 8.90 },
+        { "nombre": "Pollo BBQ Cheese", "desc": "Pan artesanal, pollo crujiente, salsa BBQ, cheddar y lechuga.", "precio": 7.90 },
+        { "nombre": "Pollo Mayo", "desc": "Pan artesanal, pollo crujiente, lechuga y mayonesa.", "precio": 6.50 }
+      ]
+    },
+    {
+      "id": "veggie",
+      "nombre": "Veggie",
+      "items": [
+        { "nombre": "Veggie Burger", "desc": "Pan artesanal, carne 100% plant based, tomate, cheddar, lechuga premium y salsa dolce.", "precio": 12.00 }
+      ]
+    },
+    {
+      "id": "complementos",
+      "nombre": "Complementos",
+      "items": [
+        { "nombre": "Patatas Bacon Cheese", "desc": "Patatas con queso cheddar fundido y bacon.", "precio": 5.90 },
+        { "nombre": "Fingers de pollo", "desc": "4 unidades.", "precio": 5.90 },
+        { "nombre": "Alitas de pollo", "desc": "5 unidades.", "precio": 5.90 },
+        { "nombre": "Nuggets de pollo", "desc": "5 unidades.", "precio": 5.50 },
+        { "nombre": "Sticks de mozzarella", "desc": "5 unidades.", "precio": 4.90 }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Milkshakes, helados y bebidas",
+      "items": [
+        { "nombre": "Milkshakes", "desc": "Consulta los sabores en el local.", "precio": null },
+        { "nombre": "Helados", "desc": "Consulta los sabores en el local.", "precio": null },
+        { "nombre": "Bebidas", "desc": "Refrescos y agua.", "precio": null }
+      ]
+    }
+  ]
+}
