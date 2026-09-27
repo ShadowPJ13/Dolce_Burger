@@ -1,58 +1,108 @@
 {
-  "nota": "Descripciones tomadas de Just Eat y precios de Uber Eats (septiembre 2026). Revisar y ajustar a los precios del local.",
+  "aviso": "Precios en euros con IVA incluido. Hazlo menú (patatas y bebida) por 2,80 €.",
   "categorias": [
     {
       "id": "vacuno",
       "nombre": "Burgers de vacuno",
       "items": [
-        { "nombre": "Dolce Burger", "desc": "Pan artesanal, doble vacuno 180 g, salsa dolce, doble cheddar, lechuga, tomate, cebolla y pepinillo.", "precio": 9.90, "destacado": true },
-        { "nombre": "Burger Tower", "desc": "Pan artesanal, doble vacuno 180 g, crispy, salsa dolce, doble cheddar, bacon, huevo, tomate y lechuga premium.", "precio": 13.00, "destacado": true },
-        { "nombre": "Burger Trufada", "desc": "Pan artesanal, doble vacuno 180 g, huevo, doble cheddar y mayo trufada especial.", "precio": 11.50 },
-        { "nombre": "Cabramelizada", "desc": "Pan artesanal, vacuno 90 g, queso de cabra, cebolla caramelizada, mayo rústica y lechuga premium.", "precio": 11.00 },
-        { "nombre": "Wild Bacon Cheese", "desc": "Pan artesanal, vacuno 90 g, salsa BBQ, cheddar, bacon y aros de cebolla.", "precio": 9.90 },
-        { "nombre": "Oklahoma Fried Onion", "desc": "Pan artesanal, doble vacuno 180 g, doble cheddar, cebolla a la plancha, salsa dolce y pepinillo.", "precio": 9.90 },
-        { "nombre": "Bacon Cheeseburger", "desc": "Pan artesanal, vacuno 90 g, cheddar, bacon, salsa dolce, cebolla y pepinillo.", "precio": 9.50 },
-        { "nombre": "Cheeseburger", "desc": "Pan artesanal, vacuno 90 g, cheddar, ketchup, mostaza, cebolla picada y pepinillo. También doble o triple.", "precio": 5.90 },
-        { "nombre": "Classic Burger", "desc": "Pan artesanal, vacuno 90 g, mayonesa, cheddar, tomate y lechuga.", "precio": 6.90 }
+        { "nombre": "Dolce Burger", "desc": "Pan artesanal, doble vacuno (180 g), salsa dolce, doble cheddar, lechuga, tomate, cebolla y pepinillo.", "precio": 7.90, "destacado": true, "foto": "dolce-burger.jpg" },
+        { "nombre": "Tower", "desc": "Pan artesanal, doble vacuno (180 g), cebolla crispy, salsa dolce, doble cheddar, bacon, huevo, tomate y lechuga premium.", "precio": 9.90, "destacado": true, "foto": "tower.jpg" },
+        { "nombre": "Trufada", "desc": "Pan artesanal, doble vacuno (180 g), huevo, doble cheddar y mayo trufada especial.", "precio": 8.50 },
+        { "nombre": "Oklahoma Fried Onion", "desc": "Pan artesanal, doble vacuno (180 g), doble cheddar, cebolla a la plancha, salsa dolce y pepinillo.", "precio": 7.90, "foto": "oklahoma-fried-onion.jpg" },
+        { "nombre": "Cabramelizada", "desc": "Pan artesanal, vacuno (90 g), mayo rústica, queso de cabra, cebolla caramelizada y lechuga premium.", "precio": 7.90, "variantes": [{ "nombre": "Doble", "precio": 8.90 }], "foto": "cabramelizada.jpg" },
+        { "nombre": "Wild Bacon Cheese", "desc": "Pan artesanal, vacuno (90 g), salsa BBQ, queso cheddar, bacon y aros de cebolla.", "precio": 7.50, "variantes": [{ "nombre": "Doble", "precio": 8.50 }], "foto": "wild-bacon-cheese.jpg" },
+        { "nombre": "Bacon Cheeseburger", "desc": "Pan artesanal, vacuno (90 g), queso cheddar, bacon, salsa dolce, cebolla y pepinillo.", "precio": 6.90, "variantes": [{ "nombre": "Doble", "precio": 7.90 }], "foto": "bacon-cheeseburger.jpg" },
+        { "nombre": "Classic Burger", "desc": "Pan artesanal, vacuno (90 g), mayonesa, queso cheddar, tomate y lechuga.", "precio": 4.90, "foto": "classic-burger.jpg" },
+        { "nombre": "Cheeseburger", "desc": "Pan artesanal, vacuno (90 g), queso cheddar, ketchup, mostaza, cebolla picada y pepinillo.", "precio": 4.50, "variantes": [{ "nombre": "Doble", "precio": 6.50 }, { "nombre": "Triple", "precio": 7.50 }], "foto": "cheeseburger.jpg" }
       ]
     },
     {
       "id": "pollo",
       "nombre": "Burgers de pollo",
       "items": [
-        { "nombre": "Pollo Royal Doble", "desc": "Pan artesanal, doble pollo crujiente, doble cheddar, bacon, huevo, salsa dolce, lechuga premium y tomate.", "precio": 14.00, "destacado": true },
-        { "nombre": "Pollo Royal", "desc": "Pan artesanal, pollo crujiente, cheddar, bacon, huevo, salsa dolce, lechuga premium y tomate.", "precio": null },
-        { "nombre": "Pollo Cheese Bacon", "desc": "Pan artesanal, pollo crujiente, bacon, mayo rústica, cheddar, lechuga premium y cebolla crispy.", "precio": null },
-        { "nombre": "Pollo Honey Mustard", "desc": "Pan artesanal, pollo crujiente, cheddar, salsa miel mostaza y lechuga premium.", "precio": 8.90 },
-        { "nombre": "Pollo BBQ Cheese", "desc": "Pan artesanal, pollo crujiente, salsa BBQ, cheddar y lechuga.", "precio": 7.90 },
-        { "nombre": "Pollo Mayo", "desc": "Pan artesanal, pollo crujiente, lechuga y mayonesa.", "precio": 6.50 }
+        { "nombre": "Pollo Royal", "desc": "Pan artesanal, pollo crujiente, queso cheddar, bacon, huevo, salsa dolce, lechuga premium y tomate.", "precio": 8.50, "destacado": true, "variantes": [{ "nombre": "Doble", "precio": 10.00 }], "foto": "pollo-royal.jpg" },
+        { "nombre": "Pollo Cheese Bacon", "desc": "Pan artesanal, pollo crujiente, bacon, mayo rústica, queso cheddar, lechuga premium y cebolla crispy.", "precio": 7.50, "foto": "pollo-cheese-bacon.jpg" },
+        { "nombre": "Pollo Honey Mustard", "desc": "Pan artesanal, pollo crujiente, queso cheddar, salsa de miel y mostaza y lechuga premium.", "precio": 6.90, "foto": "pollo-honey-mustard.jpg" },
+        { "nombre": "Pollo BBQ Cheese", "desc": "Pan artesanal, pollo crujiente, salsa BBQ, queso cheddar y lechuga.", "precio": 5.90, "foto": "pollo-bbq-cheese.jpg" },
+        { "nombre": "Pollo Mayo", "desc": "Pan artesanal, pollo crujiente, lechuga y mayonesa.", "precio": 4.90, "foto": "pollo-mayo.jpg" }
       ]
     },
     {
       "id": "veggie",
       "nombre": "Veggie",
       "items": [
-        { "nombre": "Veggie Burger", "desc": "Pan artesanal, carne 100% plant based, tomate, cheddar, lechuga premium y salsa dolce.", "precio": 12.00 }
+        { "nombre": "Veggie Burger", "desc": "Pan artesanal, carne 100 % plant based, tomate, queso cheddar, lechuga premium y salsa dolce.", "precio": 8.50 }
       ]
     },
     {
       "id": "complementos",
       "nombre": "Complementos",
       "items": [
-        { "nombre": "Patatas Bacon Cheese", "desc": "Patatas con queso cheddar fundido y bacon.", "precio": 5.90 },
-        { "nombre": "Fingers de pollo", "desc": "4 unidades.", "precio": 5.90 },
-        { "nombre": "Alitas de pollo", "desc": "5 unidades.", "precio": 5.90 },
-        { "nombre": "Nuggets de pollo", "desc": "5 unidades.", "precio": 5.50 },
-        { "nombre": "Sticks de mozzarella", "desc": "5 unidades.", "precio": 4.90 }
+        { "nombre": "Patatas bacon cheese", "precio": 4.00, "foto": "patatas-bacon-cheese.jpg" },
+        { "nombre": "Patatas fritas", "precio": 2.00, "foto": "patatas-fritas.jpg" },
+        { "nombre": "Fingers de pollo", "desc": "4 unidades.", "precio": 4.50 },
+        { "nombre": "Alitas de pollo", "desc": "5 unidades, marinadas con salsa Tex-Mex.", "precio": 4.50, "foto": "alitas.jpg" },
+        { "nombre": "Nuggets de pollo", "desc": "5 unidades.", "precio": 4.00 },
+        { "nombre": "Palomitas de pollo", "desc": "6 unidades.", "precio": 3.50, "foto": "palomitas.jpg" },
+        { "nombre": "Sticks de mozzarella", "desc": "5 unidades.", "precio": 3.80, "foto": "sticks-mozzarella.jpg" },
+        { "nombre": "Aros de cebolla premium", "desc": "6 unidades.", "precio": 3.00, "foto": "aros-de-cebolla.jpg" }
+      ]
+    },
+    {
+      "id": "extras",
+      "nombre": "Extras y salsas",
+      "compacta": true,
+      "suplemento": true,
+      "items": [
+        { "nombre": "Carne de vacuno", "desc": "90 g.", "precio": 1.50 },
+        { "nombre": "Pollo crujiente", "precio": 1.50 },
+        { "nombre": "Huevo", "precio": 1.00 },
+        { "nombre": "Bacon", "precio": 1.00 },
+        { "nombre": "Queso cheddar", "precio": 1.00 },
+        { "nombre": "Cebolla caramelizada", "precio": 1.00 },
+        { "nombre": "Cebolla a la plancha", "precio": 1.00 },
+        { "nombre": "Cebolla crispy", "precio": 0.50 },
+        { "nombre": "Salsa dolce", "precio": 1.00 },
+        { "nombre": "Salsa cheddar", "precio": 1.00 },
+        { "nombre": "Dip mayo trufada", "precio": 1.00 },
+        { "nombre": "Dip spicy mayo", "desc": "Picante.", "precio": 1.00 },
+        { "nombre": "Dip Valentina", "desc": "Muy picante.", "precio": 1.00 },
+        { "nombre": "Dip miel y mostaza", "precio": 1.00 },
+        { "nombre": "Dip miel BBQ", "precio": 1.00 },
+        { "nombre": "Dip agridulce", "precio": 1.00 },
+        { "nombre": "Nata", "desc": "Para los milkshakes.", "precio": 1.00 }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "compacta": true,
+      "items": [
+        { "nombre": "Agua", "precio": 1.00 },
+        { "nombre": "Coca-Cola", "precio": 1.70 },
+        { "nombre": "Coca-Cola Zero", "precio": 1.70 },
+        { "nombre": "Fanta Limón", "precio": 1.70 },
+        { "nombre": "Fanta Naranja", "precio": 1.70 },
+        { "nombre": "Sprite", "precio": null },
+        { "nombre": "Nestea", "precio": 1.70 },
+        { "nombre": "Aquarius Limón", "precio": 1.70 },
+        { "nombre": "Hawai / Poms", "precio": 1.70 },
+        { "nombre": "Free Damm 0,0", "desc": "Cerveza sin alcohol.", "precio": null }
       ]
     },
     {
       "id": "postres",
-      "nombre": "Milkshakes, helados y bebidas",
+      "nombre": "Milkshakes y helados",
       "items": [
-        { "nombre": "Milkshakes", "desc": "Consulta los sabores en el local.", "precio": null },
-        { "nombre": "Helados", "desc": "Consulta los sabores en el local.", "precio": null },
-        { "nombre": "Bebidas", "desc": "Refrescos y agua.", "precio": null }
+        { "nombre": "Milkshake Oreo", "precio": 3.60, "foto": "milkshake-oreo.jpg" },
+        { "nombre": "Milkshake Kinder Bueno", "precio": 3.60, "foto": "milkshake-kinder-bueno.jpg" },
+        { "nombre": "Milkshake Lotus", "precio": 3.60, "foto": "milkshake-lotus.jpg" },
+        { "nombre": "Milkshake Filipinos", "precio": 3.60, "foto": "milkshake-filipinos.jpg" },
+        { "nombre": "Milkshake Chips Ahoy", "precio": null, "foto": "milkshake-chips-ahoy.jpg" },
+        { "nombre": "Milkshake de fresa", "precio": 3.40, "foto": "milkshake-fresa.jpg" },
+        { "nombre": "Vainilla shake", "precio": 3.40, "foto": "milkshake-vainilla.jpg" },
+        { "nombre": "Helado en tarrina", "desc": "Oreo, Kinder Bueno, Lotus o Filipinos.", "precio": 3.50 },
+        { "nombre": "Sundae", "desc": "Caramelo, chocolate, chocolate blanco, vainilla o fresa.", "precio": 3.20 }
       ]
     }
   ]

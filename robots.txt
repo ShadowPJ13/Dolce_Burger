@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shadowpj13.github.io/Dolce_Burger/sitemap.xml
