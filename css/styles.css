@@ -58,6 +58,8 @@ h2 { font-size: clamp(2rem, 5vw, 3.2rem); }
 .btn:hover { transform: translateY(-2px); }
 .btn--ghost { background: transparent; color: var(--text); border-color: var(--line); }
 .btn--ghost:hover { border-color: var(--accent); color: var(--accent); }
+.btn--outline { background: transparent; color: var(--accent); border-color: var(--accent); }
+.btn--outline:hover { background: var(--accent); color: var(--accent-ink); }
 .btn--sm { padding: .5rem 1rem; font-size: .9rem; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 
